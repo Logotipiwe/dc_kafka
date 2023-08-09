@@ -1,0 +1,18 @@
+auth:
+  type: DISABLED
+kafka:
+  clusters:
+  - bootstrapServers: kafka:29092
+    metrics:
+      port: 9997
+      type: JMX
+    name: local
+    properties: {}
+    readOnly: false
+    schemaRegistry: http://localhost:8085
+    schemaRegistryAuth:
+      password: password
+      username: username
+rbac:
+  roles: []
+webclient: {}
