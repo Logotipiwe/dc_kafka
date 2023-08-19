@@ -4,12 +4,12 @@ kafka:
   clusters:
   - bootstrapServers: kafka:9092
     metrics:
-      port: 9997
+      port: 9092
       type: JMX
     name: local
     properties: {}
     readOnly: false
-    schemaRegistry: http://localhost:8085
+    schemaRegistry: http://localhost:8080
     schemaRegistryAuth:
       password: password
       username: username
